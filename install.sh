@@ -106,8 +106,8 @@ install_XrayR() {
     mkdir /usr/local/XrayR/ -p
     cd /usr/local/XrayR/
     wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://raw.githubusercontent.com/ggxx55/huluqifei/main/XrayR-linux-64.zip
-    unzip XrayR-linux-64.zip
-    rm XrayR-linux-64.zip -f
+    unzip XrayR-linux.zip
+    rm XrayR-linux.zip -f
     chmod +x XrayR
     mkdir /etc/XrayR/ -p
     rm /etc/systemd/system/XrayR.service -f
